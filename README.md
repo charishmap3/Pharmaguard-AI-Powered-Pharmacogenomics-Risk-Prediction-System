@@ -2,7 +2,7 @@
 
 **A clinical-grade AI-powered web application for pharmacogenomic analysis and personalized drug risk prediction**
 
-## 🎯 Project Overview
+##  Project Overview
 
 PharmaGuard analyzes patient genetic data (VCF files) to predict personalized pharmacogenomic risks and provides Claude AI-generated clinical explanations. Built for the RIFT 2026 Hackathon HealthTech track.
 
@@ -67,7 +67,7 @@ npm run build
 4. Click "Analyze"
 5. View results and download JSON
 
-## 📋 Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Framework:** Flask 3.0.3
@@ -168,7 +168,7 @@ Request: `{"vcf_file": "<VCF content>"}`
 
 Validates VCF file format without running full analysis.
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -209,7 +209,7 @@ Validates VCF file format without running full analysis.
                          └───────────┘
 ```
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 PharmaGuard-HealthTech/
@@ -274,7 +274,7 @@ PharmaGuard-HealthTech/
 └── README.md                     # This file
 ```
 
-## 🧬 Supported Genes & Drugs
+##  Supported Genes & Drugs
 
 ### Genes (6)
 | Gene | Function | Drugs |
@@ -320,7 +320,7 @@ REACT_APP_API_URL=http://localhost:5000
 VITE_APP_NAME=PharmaGuard
 ```
 
-## 📊 Sample VCF File
+##  Sample VCF File
 
 ```vcf
 ##fileformat=VCFv4.2
@@ -352,7 +352,7 @@ curl -X POST http://localhost:5000/api/analyze \
 EOF
 ```
 
-## 🚢 Deployment
+##  Deployment
 
 ### Deploy to Vercel (Frontend + Backend)
 
@@ -384,7 +384,7 @@ vercel --prod
 4. Set `ANTHROPIC_API_KEY` environment variable
 5. Update frontend `VITE_API_URL` to Render backend URL
 
-## 📹 LinkedIn Demo Requirements
+##  LinkedIn Demo Requirements
 
 Create a 2-5 minute public video demonstrating:
 1. Application interface and navigation
@@ -397,7 +397,7 @@ Create a 2-5 minute public video demonstrating:
 Tag: @RIFT
 Hashtags: #RIFT2026 #PharmaGuard #Pharmacogenomics #AIinHealthcare
 
-## 📝 Submission Checklist
+##  Submission Checklist
 
 - [x] Live deployable URL (Vercel/hosting)
 - [x] Public GitHub repository
@@ -417,11 +417,11 @@ Hashtags: #RIFT2026 #PharmaGuard #Pharmacogenomics #AIinHealthcare
 - [ ] GitHub push with all code
 
 
-## 📄 License
+##  License
 
 MIT License - See LICENSE file for details
 
-## 🔗 References
+##  References
 
 - [VCF Format Specification](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 - [CPIC Guidelines](https://cpicpgx.org/)
