@@ -416,13 +416,6 @@ Hashtags: #RIFT2026 #PharmaGuard #Pharmacogenomics #AIinHealthcare
 - [ ] Deployment to live URL
 - [ ] GitHub push with all code
 
-## 🤝 Contributors
-
-Built for RIFT 2026 Hackathon by a solo developer using:
-- Claude AI for code generation
-- Open-source pharmacogenomics data
-- CPIC guidelines
-- Anthropic Claude API for clinical explanations
 
 ## 📄 License
 
@@ -437,4 +430,4 @@ MIT License - See LICENSE file for details
 
 ---
 
-**PharmaGuard** - Empowering precision medicine through pharmacogenomics | RIFT 2026
+
