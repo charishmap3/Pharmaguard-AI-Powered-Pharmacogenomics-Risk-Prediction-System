@@ -384,50 +384,5 @@ vercel --prod
 4. Set `ANTHROPIC_API_KEY` environment variable
 5. Update frontend `VITE_API_URL` to Render backend URL
 
-##  LinkedIn Demo Requirements
-
-Create a 2-5 minute public video demonstrating:
-1. Application interface and navigation
-2. VCF file upload and drug selection
-3. Live analysis execution
-4. Results display and risk assessment
-5. JSON export functionality
-6. AI-generated explanation
-
-Tag: @RIFT
-Hashtags: #RIFT2026 #PharmaGuard #Pharmacogenomics #AIinHealthcare
-
-##  Submission Checklist
-
-- [x] Live deployable URL (Vercel/hosting)
-- [x] Public GitHub repository
-- [x] Complete source code with .env.example
-- [x] README.md with setup, API docs, architecture
-- [x] Sample VCF files for testing
-- [x] requirements.txt and package.json
-- [x] VCF file upload functionality
-- [x] Drug selection interface
-- [x] JSON output matching exact schema
-- [x] Risk labels (Safe/Adjust Dosage/Toxic/Ineffective/Unknown)
-- [x] Confidence scores and phenotype classification
-- [x] Color-coded UI indicators
-- [x] Error handling for invalid VCF files
-- [ ] LinkedIn demo video (public, with hashtags)
-- [ ] Deployment to live URL
-- [ ] GitHub push with all code
-
-
-##  License
-
-MIT License - See LICENSE file for details
-
-##  References
-
-- [VCF Format Specification](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
-- [CPIC Guidelines](https://cpicpgx.org/)
-- [PharmGKB](https://www.pharmgkb.org/)
-- [Anthropic Claude API](https://docs.anthropic.com/)
-
----
 
 
