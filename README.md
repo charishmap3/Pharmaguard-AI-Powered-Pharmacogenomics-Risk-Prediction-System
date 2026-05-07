@@ -299,26 +299,7 @@ PharmaGuard-HealthTech/
 - **Toxic** - High adverse effect risk, dose reduction needed
 - **Ineffective** - May not achieve therapeutic benefit
 - **Unknown** - Insufficient data
-
-## 🔧 Environment Variables
-
-### Backend (.env)
-```
-FLASK_ENV=development
-FLASK_DEBUG=False
-SECRET_KEY=your-secret-key-here
-ANTHROPIC_API_KEY=sk-ant-xxxxx  # Required for Claude API
-FRONTEND_URL=http://localhost:3000
-MAX_VCF_FILE_SIZE=5242880  # 5MB
-ALLOWED_DRUGS=CODEINE,WARFARIN,CLOPIDOGREL,SIMVASTATIN,AZATHIOPRINE,FLUOROURACIL
-```
-
-### Frontend (.env)
-```
-VITE_API_URL=http://localhost:5000
-REACT_APP_API_URL=http://localhost:5000
-VITE_APP_NAME=PharmaGuard
-```
+  
 
 ##  Sample VCF File
 
